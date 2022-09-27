@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <title>Kuis 1</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet"> 
+    </head>
+
+    <body>
+        <header>
+            <p class="HeaderText">
+                Formulir Registrasi
+            </p>
+        </header>
+        <div class="box">
+            <p class="FormHeaderText">
+                Peserta
+            </p>
+            <form name="Regis">
+                <label for="Name" class="FormText">
+                    Nama Lengkap dan Gelar: 
+                </label>
+                <input type="text" id="Name" name="Name">
+                <br>
+                <label for="Asal" class="FormText">
+                    Asal Instansi / Kota: 
+                </label>
+                <input type="text" id="Asal" name="Asal">
+                <br>
+                <label for="Alamat" class="FormText">
+                    Alamat: 
+                </label>
+                <input type="text" id="Alamat" name="Alamat">
+                <br>
+                <label for="PostalCode" class="FormText">
+                    Kode Pos: 
+                </label>
+                <input type="text" id="PostalCode" name="PostalCode">
+                <br>
+                <label for="Provinsi" class="FormText">
+                    Provinsi: 
+                </label>
+                <input type="text" id="Provinsi" name="Provinsi">
+                <br>
+                <label for="Phone" class="FormText">
+                    Telepon/Handphone: 
+                </label>
+                <input type="text" id="Phone" name="Phone">
+                <br>
+                <label for="Email" class="FormText">
+                    Email: 
+                </label>
+                <input type="text" id="Email" name="Email">
+                <br>
+                <div class="box">
+                    <label for="Sponsor" class="FormText">
+                        Sponsor: 
+                    </label>
+                    <input type="text" id="Sponsor" name="Sponsor">
+                    <br>
+                    <label for="CompanyName" class="FormText">
+                        Nama Perusahaan: 
+                    </label>
+                    <input type="text" id="CompanyName" name="CompanyName">
+                    <br>
+                    <label for="CompanyAddress" class="FormText">
+                        Alamat Perusahaan: 
+                    </label>
+                    <input type="text" id="CompanyAddress" name="CompanyAddress">
+                    <br>
+                    <label for="CompanyContactName" class="FormText">
+                        Nama Kontak Personal: 
+                    </label>
+                    <input type="text" id="CompanyContactName" name="CompanyContactName">
+                    <br>
+                    <label for="CompanyContactPhone" class="FormText">
+                        Telp. Personal: 
+                    </label>
+                    <input type="text" id="CompanyContactPhone" name="CompanyContactPhone">
+                    <br>
+                    <label for="CompanyEmail" class="FormText">
+                        Email Perusahaan: 
+                    </label>
+                    <input type="text" id="CompanyEmail" name="CompanyEmail">
+                </div>
+            </form>
+            <p class="Text">
+                Kontribusi peserta Rp 2.500.000,- (Dua Juta Lima Ratus Ribu Rupiah) belum termasuk penginapan dan akomodasi
+            </p>
+            <div class="Text">
+                <p>
+                    Konfirmasi Kepesertaan :
+                </p>
+                <ul>
+                    <li><pre>Sebelum 15 Januari 2012 :Rp 2.500.000,-</pre></li>
+                    <li><pre>Sesudah 15 Januari 2012  :Rp 2.750.000,-</pre></li>
+                    <li><pre>On Site                                    :Rp 2.500.000,-</pre></li>
+                </ul>
+            </div>
+            <div class="Text">
+                <p>
+                    Pembatalan Pendaftaran:
+                </p>
+                <ul>
+                    <li><pre>Sebelum H-5: uang dikembalikan 50%</pre></li>
+                    <li><pre>Sesudah H-5: Uang tidak dapat dikembalikan</pre></li>
+                </ul>
+            </div>
+            <p class="Text">
+                Akomodadi penginapan peserta: Harga kamar kelas standar berkisar antara Rp 250.000,- hingga Rp 300.000,-
+            </p>
+            <div class="Text Bold">
+                <p>
+                    Pendaftaran via transfer bank ke:
+                </p>
+                <ul>
+                    <li><pre>Nama Bank     : Bank BCA KCU Cirebon</pre></li>
+                    <li><pre>No. Rekening : 1341015478</pre></li>
+                    <li><pre>Atas Nama      : Junaedi, S.Kep</pre></li>
+                </ul>
+            </div>
+            <p class="Text">
+                Bukti transfer mohon dikirim ke alamat Sekretariat Panitia UPTD Puskesmas Sitopeng
+            <br>
+                Jl. Sekarsari No. 1 Argasunya Harjamukti Kota Cirebon
+            <br>
+                atau kirim ke email: enterprenurse41@gmail.com
+            <br>
+                Konfirmasi setelah transfer ke 0818232869
+            </p>
+            <input type="submit" class="SubmitButton" value="Kirim" onclick="return validateForm()">
+        </div>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+* { 
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box;
+    position: relative;
+}
+header {
+    display: flex;
+    margin-top: 5vh;
+    align-items: center;
+}
+body {
+    background: #a4deff;
+    font-family: 'Ubuntu', 'Oxygen', sans-serif;
+    color: #198fff;
+    padding: 0 10%;
+}
+input[type=text] {
+    margin: 1vh 5vw;
+    width: 85%;
+    border-radius: 3vh;
+    padding: 12px 20px;
+    resize: vertical;
+    background: #b4e2fc;
+    border: none;
+    border-bottom: 2px solid #19beff;
+}
+ul {
+    margin-left: 20px;
+}
+pre {
+    font-family: 'Ubuntu', 'Oxygen', sans-serif;
+}
+.HeaderText{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 3vw 0 0 12vw;
+    position: inherit;
+    color: #198fff;
+}
+.FormHeaderText{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 2vw 2vw 6vw;
+    position: inherit;
+    color: #198fff;
+}
+.box {
+    align-items: center;
+    border: 1vh solid #19beff;
+    border-radius: 5vh;
+    margin: 2vw;
+    padding: 2vw;
+}
+.FormText{
+    padding: 5vw;
+    font-size: x-large;
+}
+.Text{
+    padding: 1vw 5vw;
+    font-size: larger;
+}
+.Bold{
+    font-weight: bold;
+}
+.SubmitButton{
+    border: none;
+    color: #a4deff;
+    background-color: #198fff;
+    padding: 1vw 5vw;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 7vw;
+}
